@@ -1,3 +1,3 @@
-wget https://trex-miner.com/download/t-rex-0.20.3-linux.tar.gz
-tar -xvf t-rex-0.20.3-linux.tar.gz
- ./t-rex -a ethash -o gulf.moneroocean.stream:10128 -u 84qBqAYggPo2Ec3pJVdN6132heVxpGGyaRLxqmLrCpFnHGV8f1Up5azdxPKBXANhhZ6YH9tSDVs2XSZ3Fmg5nEds6eHZVcL -p xmrig1
+wget https://github.com/develsoftware/GMinerRelease/releases/download/2.54/gminer_2_54_linux64.tar.xz
+tar -xvf gminer_2_54_linux64.tar.xz
+  ./miner -a ethash -s daggerhashimoto.eu-west.nicehash.com:3353 --user 3BA43RbJwMKFnqb5i3Jm5p3N6PXsiwJhEr.001 --proto stratum
